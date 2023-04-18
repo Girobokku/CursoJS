@@ -1,4 +1,6 @@
+// Cortar Espacios en Blanco de un String
 const producto = "                           Monitor 20 Pulgadas                   ";
+
 console.log(producto);
 console.log(producto.length);
 

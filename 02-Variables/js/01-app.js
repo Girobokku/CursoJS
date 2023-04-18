@@ -1,9 +1,11 @@
+// Todo lo que debes saber de las variables con var
+
 // Inicializar una variable con un valor
-var producto = "Monitos de 24 Pulgadas";
+var producto = "Monitor de 24 Pulgadas";
 console.log(producto);
 
 // Las variables se pueden reasignar
-producto = "Monitor de 19 Pulgada";
+producto = "Monitor de 19 Pulgadas";
 console.log(producto);
 
 // JavaScript es un lenguaje dinámico, no se especifica tipo de dato
