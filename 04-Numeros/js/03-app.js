@@ -1,3 +1,5 @@
+// El objeto Math
+
 let resultado;
 
 // PI
@@ -33,8 +35,8 @@ resultado = Math.max(3,5,1,12,-3);
 
 resultado = Math.random()*20;
 
-// Aleatorio dentro de un rango
-resultado = Math.floor(Math.random()*30);
+// Aleatorio dentro de un rango hasta 30
+resultado = Math.floor(Math.random()*31);
 
 
 console.log(resultado);

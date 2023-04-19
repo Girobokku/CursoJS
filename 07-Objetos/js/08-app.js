@@ -1,3 +1,4 @@
+// Congelar un objeto para no poderlo modificar 
 "use strict";
 
 const producto = {
@@ -6,11 +7,11 @@ const producto = {
     disponible: true
 }
 
-Object.freeze(producto);
+// .freeze()
 
+Object.freeze(producto);
 // producto.disponible = false;
 // producto.imagen = "imagen.jpg"
 
 console.log(producto);
-
 console.log(Object.isFrozen(producto));

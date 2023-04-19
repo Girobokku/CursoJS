@@ -1,3 +1,7 @@
+// Copiar 2 objetos
+
+// .assign() y spread operator/ rest operator
+
 const producto = {
     nombre: "Monitor 20 pulgadas",
     precio: 300,
@@ -15,6 +19,7 @@ console.log(medidas);
 const resultado = Object.assign(producto, medidas);
 
 // Spread Operator o Rest Operator
+
 const resultado2 = { ...producto, ...medidas }
 
 console.log(resultado);

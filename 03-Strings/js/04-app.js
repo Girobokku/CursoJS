@@ -8,5 +8,5 @@ console.log(producto.length);
 console.log(producto.trimStart());
 console.log(producto.trimEnd());
 
-// Eliminar espacios del inciio y del final utilizando channing
+// Eliminar espacios del incio y del final utilizando chaining
 console.log(producto.trimStart().trimEnd());

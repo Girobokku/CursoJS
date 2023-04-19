@@ -1,3 +1,5 @@
+// String Methods - Repeat y Split
+
 const producto = "Monitor 20 Pulgadas";
 
 // .repeat te va a permitir repetir una cadena de texto...

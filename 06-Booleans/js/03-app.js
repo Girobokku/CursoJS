@@ -1,3 +1,5 @@
+// Buenas prácticas a la hora de evaluar un Boolean
+
 const autenticado = true;
 
 if(autenticado){

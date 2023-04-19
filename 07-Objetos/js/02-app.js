@@ -1,3 +1,5 @@
+// Cómo acceder a los valores de un objeto
+
 const producto = {
     nombre: "Monitor 20 pulgadas",
     precio: 300,
@@ -5,7 +7,6 @@ const producto = {
 }
 
 console.log(producto);
-
 console.log(producto.nombre);
 console.log(producto.precio);
 console.log(producto.disponible);

@@ -1,4 +1,5 @@
 // Eliminar elementos con Splice
+
 const carrito = [];
 
 // Definir un producto
@@ -48,4 +49,5 @@ Ejemplos del uso de .splice(x,y):
 carrito.splice(1,1);
 // carrito.splice(0,1);
 // carrito.splice((carrito.length-1),1);
+
 console.table(carrito);

@@ -1,3 +1,5 @@
+// El problema con los objetos
+
 const producto = {
     nombre: "Monitor 20 pulgadas",
     precio: 300,
@@ -5,7 +7,6 @@ const producto = {
 }
 
 producto.disponible = false;
-
 delete producto.precio;
 
 console.log(producto);

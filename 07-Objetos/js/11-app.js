@@ -1,3 +1,5 @@
+// Funciones en objetos y acceder a sus valores
+
 const producto = {
     nombre: "Monitor 20 pulgadas",
     precio: 300,

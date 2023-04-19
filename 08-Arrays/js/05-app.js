@@ -1,11 +1,10 @@
 // Añadir nuevos elementos al fin o inicio de un array
-const meses = ['Enero', 'Febrero', 'Marzo'];
 
+const meses = ['Enero', 'Febrero', 'Marzo'];
 meses[3] = 'Abril';
 
 // Agregar al final del arreglo
 meses.push('Mayo');
-
 
 console.log(meses);
 console.table(meses);
@@ -32,6 +31,5 @@ const producto3 = {
 carrito.push(producto);
 carrito.push(producto2);
 carrito.unshift(producto3);
-
 
 console.table(carrito);

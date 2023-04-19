@@ -1,3 +1,5 @@
+// El object constructor
+
 // Object Literal
 const producto = {
     nombre: "Monitor 20 pulgadas",
@@ -13,7 +15,7 @@ function Producto(nombre, precio) {
 }
 
 const producto2 = new Producto("Monitor 24\"", 500)
-console.log(producto2);
-
 const producto3 = new Producto("Televisor", 100);
+
+console.log(producto2);
 console.log(producto3);

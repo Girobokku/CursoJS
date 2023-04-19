@@ -1,4 +1,5 @@
 // Recorrer un Array
+
 const meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio'];
 
 console.table(meses);
@@ -7,6 +8,7 @@ console.table(meses);
 console.log(meses.length);
 
 // For loop para recorrer el array
+
 for (let i = 0; i < meses.length; i++) {
     console.log(meses[i]);
 }

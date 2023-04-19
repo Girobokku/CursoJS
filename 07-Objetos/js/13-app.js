@@ -1,3 +1,5 @@
+// Object .keys, .values y .entries
+
 const producto = {
     nombre: "Monitor 20 pulgadas",
     precio: 300,
@@ -5,7 +7,5 @@ const producto = {
 }
 
 console.log(Object.keys(producto));
-
 console.log(Object.values(producto));
-
 console.log(Object.entries(producto));

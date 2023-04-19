@@ -1,3 +1,5 @@
+// Sellar un objeto
+
 /*
 DIFERENCIA ENTRE FREEZE Y SEAL: FREEZE TE DEJA EL OBJETO TAL CUAL ESTÁ PERO 
 SEAL DEJA MODIFICAR LAS LLAVES EXISTENTES DE UN OBJETO. NO PUDIENDO AÑADIR 
@@ -12,6 +14,8 @@ const producto = {
     disponible: true
 }
 
+// .seal()
+
 Object.seal(producto);
 
 producto.disponible = false;
@@ -19,5 +23,4 @@ producto.disponible = false;
 // delete producto.precio;
 
 console.log(producto);
-
 console.log(Object.isSealed(producto));

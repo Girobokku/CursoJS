@@ -1,3 +1,5 @@
+// Crear objetos en JavaScript
+
 const nombre = "Monitor 20 pulgadas";
 const precio = 300;
 const disponible = true;
@@ -7,7 +9,7 @@ const disponible = true;
 // Object literal
 const producto = {
     nombre: "Monitor 20 pulgadas",
-    precio: 30,
+    precio: 300,
     disponible: true
 }
 

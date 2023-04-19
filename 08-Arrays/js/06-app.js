@@ -1,4 +1,5 @@
 // Crear un nuevo arreglo con el spread operator
+
 const carrito = [];
 
 // Definir productos
@@ -18,13 +19,9 @@ const producto3 = {
 }
 
 let resultado;
-
 resultado = [...carrito, producto];
 resultado = [...resultado, producto2];
 resultado = [producto3, ...resultado];
-
-
-
 
 console.log(carrito.length);
 console.table(resultado);
